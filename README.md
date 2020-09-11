@@ -23,4 +23,5 @@ node bin/twitter-list-finder.js --no-warngings user yuiseki main
 ```
 sudo apt install jq
 node bin/twitter-list-finder.js --no-warngings user yuiseki main | jq 'keys | length'
+cat listnames | xargs -t -I{} sh -c "node bin/twitter-list-finder.js --no-warngings user yuiseki {} > yuiseki-{}.json"
 ```
