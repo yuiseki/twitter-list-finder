@@ -1,0 +1,23 @@
+{
+  "name": "twitter-list-finder",
+  "version": "1.0.0",
+  "description": "",
+  "node": ">=10.17",
+  "main": "index.js",
+  "bin": {
+    "twitter-list-finder": "bin/twitter-list-finder.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-fetch": "^2.6.1",
+    "puppeteer": "^5.3.0",
+    "yargs": "^16.0.3"
+  }
+}
