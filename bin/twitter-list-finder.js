@@ -71,7 +71,7 @@ const main = async () => {
       }
     })
   });
-  console.log(twitter.tweets);
+  console.log(JSON.stringify(twitter.tweets));
   await browser.close();
 }
 
