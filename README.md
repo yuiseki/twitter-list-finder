@@ -25,3 +25,10 @@ sudo apt install jq
 node bin/twitter-list-finder.js --no-warngings user yuiseki main | jq 'keys | length'
 cat listnames | xargs -t -I{} sh -c "node bin/twitter-list-finder.js --no-warngings user yuiseki {} > yuiseki-{}.json"
 ```
+
+## use in docker
+```
+docker build -t twitter-list-finder .
+docker run twitter-list-finder
+```
+

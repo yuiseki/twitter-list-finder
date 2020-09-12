@@ -1,7 +1,7 @@
 {
   "name": "twitter-list-finder",
   "version": "1.0.0",
-  "description": "",
+  "description": "find twitter list",
   "node": ">=10.17",
   "main": "index.js",
   "bin": {
@@ -12,6 +12,10 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:yuiseki/twitter-list-finder.git"
   },
   "author": "",
   "license": "ISC",
